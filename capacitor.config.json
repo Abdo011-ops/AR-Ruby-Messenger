@@ -1,0 +1,29 @@
+{
+  "appId": "com.abdulrahman.whatsappclone",
+  "appName": "AR WhatsApp",
+  "webDir": "build",
+  "bundledWebRuntime": false,
+  "server": {
+    "androidScheme": "https"
+  },
+  "plugins": {
+    "Geolocation": {
+      "permissions": {
+        "android": [
+          "android.permission.ACCESS_FINE_LOCATION",
+          "android.permission.ACCESS_COARSE_LOCATION"
+        ]
+      }
+    },
+    "Camera": {
+      "permissions": {
+        "android": ["android.permission.CAMERA"]
+      }
+    },
+    "VoiceRecorder": {
+      "permissions": {
+        "android": ["android.permission.RECORD_AUDIO"]
+      }
+    }
+  }
+}
