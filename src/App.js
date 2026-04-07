@@ -11,7 +11,7 @@ import { LanguageContext } from './contexts/LanguageContext';
 
 import { Camera } from '@capacitor/camera';
 import { Geolocation } from '@capacitor/geolocation';
-import { VoiceRecorder } from '@capacitor-community/voice-recorder';
+import { VoiceRecorder } from 'capacitor-voice-recorder';
 
 function App() {
   const [user, setUser] = useState(null);
