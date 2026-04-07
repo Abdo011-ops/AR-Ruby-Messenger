@@ -1,0 +1,30 @@
+{
+  "name": "abdulrahman-whatsapp-clone",
+  "version": "1.0.0",
+  "private": true,
+  "dependencies": {
+    "@capacitor/android": "^5.0.0",
+    "@capacitor/core": "^5.0.0",
+    "@capacitor/camera": "^5.0.0",
+    "@capacitor/filesystem": "^5.0.0",
+    "@capacitor/geolocation": "^5.0.0",
+    "@capacitor-community/voice-recorder": "^1.0.0",
+    "firebase": "^10.7.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-scripts": "5.0.1"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "cap:sync": "npx cap sync",
+    "cap:open": "npx cap open android"
+  },
+  "eslintConfig": {
+    "extends": ["react-app"]
+  },
+  "browserslist": {
+    "production": [">0.2%", "not dead", "not op_mini all"],
+    "development": ["last 1 chrome version", "last 1 firefox version", "last 1 safari version"]
+  }
+}
